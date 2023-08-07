@@ -1,0 +1,93 @@
+package com.fateczl.clinicajava.Controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.rest.webmvc.ResourceNotFoundException;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.fateczl.clinicajava.model.dto.PacienteDto;
+import com.fateczl.clinicajava.model.entity.Paciente;
+import com.fateczl.clinicajava.repository.PacienteRepository;
+
+import jakarta.validation.Valid;
+
+@RestController
+@RequestMapping("/api")
+public class PacienteController  
+{
+	@Autowired
+	private PacienteRepository pRep;
+	
+	@GetMapping("/paciente")
+	public List<PacienteDto> getAllPaciente()
+	{
+		List<Paciente> listaPaciente = pRep.findAll();
+		List<PacienteDto> listaPacienteDto = converteListaPaciente(listaPaciente);
+		return listaPacienteDto;
+	}
+
+	private List<PacienteDto> converteListaPaciente(List<Paciente> listaPaciente)
+	{
+		List<PacienteDto> listaPacienteDto = new ArrayList<PacienteDto>();
+		for(Paciente p : listaPaciente)
+		{
+			PacienteDto pDto = new PacienteDto();
+			pDto.setIdPac(p.getIdPac());
+			pDto.setNomePac(p.getNomePac());
+			pDto.setCPF(p.getCPF());
+			pDto.setEnderecoPac(p.getEnderecoPac());
+			pDto.setNumPac(p.getNumPac());
+			pDto.setCelular(p.getCelular());
+			pDto.setSexo(p.getSexo());
+			pDto.setEmail(p.getEmail());
+			
+			listaPacienteDto.add(pDto);
+		}
+		return listaPacienteDto;
+	}
+	
+	//busca por ID
+	
+	@GetMapping("/paciente{IdPac}")
+	public ResponseEntity<PacienteDto> getPaciente(@PathVariable(value = "IdPac") int IdPac) throws ResourceNotFoundException
+	{
+		Paciente paciente = pRep.findById(IdPac).orElseThrow
+				(
+						() -> new ResourceNotFoundException(IdPac+"inválido")
+				);
+		PacienteDto pacienteDto = convertePaciente(paciente);
+		return ResponseEntity.ok().body(pacienteDto);
+	}
+
+	private PacienteDto convertePaciente(Paciente p) 
+	{
+		PacienteDto pDto = new PacienteDto();
+		
+		pDto.setIdPac(p.getIdPac());
+		pDto.setNomePac(p.getNomePac());
+		pDto.setCPF(p.getCPF());
+		pDto.setEnderecoPac(p.getEnderecoPac());
+		pDto.setNumPac(p.getNumPac());
+		pDto.setCelular(p.getCelular());
+		pDto.setSexo(p.getSexo());
+		pDto.setEmail(p.getEmail());
+		
+		return pDto;
+	}
+	
+	@PostMapping("/paciente")
+	public ResponseEntity<String> crudPaciente(@Valid @RequestBody Paciente p)
+	{
+		String saida = pRep.spCrudPaciente(p.getCod(),p.getIdPac(), p.getNomePac(), p.getCPF(), p.getEnderecoPac(), p.getNumPac(),p.getCelular(), p.getSexo(), p.getEmail());
+		return ResponseEntity.ok().body(saida);
+	}
+	
+}

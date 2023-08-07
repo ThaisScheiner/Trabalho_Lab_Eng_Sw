@@ -1,0 +1,112 @@
+package com.fateczl.clinicajava.model.entity;
+
+import java.util.Objects;
+
+import jakarta.persistence.*;
+import jakarta.persistence.NamedStoredProcedureQuery;
+import jakarta.persistence.ParameterMode;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "paciente")
+@NamedStoredProcedureQuery
+(
+		name = "Paciente.spCrudPaciente",
+		procedureName = "sp_crudpaciente",
+		parameters = 
+		{
+			@StoredProcedureParameter(mode = ParameterMode.IN, name = "cod", type = String.class),
+			@StoredProcedureParameter(mode = ParameterMode.IN, name = "id", type = Integer.class),
+			@StoredProcedureParameter(mode = ParameterMode.IN, name = "nome", type = String.class),
+			@StoredProcedureParameter(mode = ParameterMode.IN, name = "cidade", type = String.class),
+			@StoredProcedureParameter(mode = ParameterMode.OUT, name = "saida", type = String.class)
+		}
+)
+public class Paciente 
+{
+	private int idPac;
+	private String nomePac;
+	private String CPF;
+	private String enderecoPac;
+	private String numPac;
+	private String celular;
+	private String sexo;
+	private String email;
+	
+	public int getIdPac() {
+		return idPac;
+	}
+	public void setIdPac(int idPac) {
+		this.idPac = idPac;
+	}
+	public String getNomePac() {
+		return nomePac;
+	}
+	public void setNomePac(String nomePac) {
+		this.nomePac = nomePac;
+	}
+	public String getCPF() {
+		return CPF;
+	}
+	public void setCPF(String cPF) {
+		CPF = cPF;
+	}
+	public String getEnderecoPac() {
+		return enderecoPac;
+	}
+	public void setEnderecoPac(String enderecoPac) {
+		this.enderecoPac = enderecoPac;
+	}
+	public String getNumPac() {
+		return numPac;
+	}
+	public void setNumPac(String numPac) {
+		this.numPac = numPac;
+	}
+	public String getCelular() {
+		return celular;
+	}
+	public void setCelular(String celular) {
+		this.celular = celular;
+	}
+	public String getSexo() {
+		return sexo;
+	}
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
+	@Override
+	public String toString() {
+		return "Paciente [idPac=" + idPac + ", nomePac=" + nomePac + ", CPF=" + CPF + ", enderecoPac=" + enderecoPac
+				+ ", numPac=" + numPac + ", celular=" + celular + ", sexo=" + sexo + ", email=" + email + "]";
+	}
+	
+	@Override
+	public int hashCode() {
+		return Objects.hash(CPF, celular, email, enderecoPac, idPac, nomePac, numPac, sexo);
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Paciente other = (Paciente) obj;
+		return Objects.equals(CPF, other.CPF) && Objects.equals(celular, other.celular)
+				&& Objects.equals(email, other.email) && Objects.equals(enderecoPac, other.enderecoPac)
+				&& idPac == other.idPac && Objects.equals(nomePac, other.nomePac)
+				&& Objects.equals(numPac, other.numPac) && Objects.equals(sexo, other.sexo);
+	}
+	
+	
+}

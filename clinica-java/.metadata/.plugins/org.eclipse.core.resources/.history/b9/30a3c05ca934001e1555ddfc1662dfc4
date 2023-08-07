@@ -1,0 +1,97 @@
+package com.fateczl.clinicajava.model.entity;
+
+import java.util.Objects;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "paciente")
+public class Paciente 
+{
+	private int IdPac;
+	private String NomePac;
+	private String CPF;
+	private String EnderecoPac;
+	private String NumPac;
+	private String Celular;
+	private String sexo;
+	private String email;
+	
+	public int getIdPac() {
+		return IdPac;
+	}
+	public void setIdPac(int idPac) {
+		IdPac = idPac;
+	}
+	public String getNomePac() {
+		return NomePac;
+	}
+	public void setNomePac(String nomePac) {
+		NomePac = nomePac;
+	}
+	public String getCPF() {
+		return CPF;
+	}
+	public void setCPF(String cPF) {
+		CPF = cPF;
+	}
+	public String getEnderecoPac() {
+		return EnderecoPac;
+	}
+	public void setEnderecoPac(String enderecoPac) {
+		EnderecoPac = enderecoPac;
+	}
+	public String getNumPac() {
+		return NumPac;
+	}
+	public void setNumPac(String numPac) {
+		NumPac = numPac;
+	}
+	public String getCelular() {
+		return Celular;
+	}
+	public void setCelular(String celular) {
+		Celular = celular;
+	}
+	public String getSexo() {
+		return sexo;
+	}
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
+	@Override
+	public String toString() {
+		return "Paciente [IdPac=" + IdPac + ", NomePac=" + NomePac + ", CPF=" + CPF + ", EnderecoPac=" + EnderecoPac
+				+ ", NumPac=" + NumPac + ", Celular=" + Celular + ", sexo=" + sexo + ", email=" + email + "]";
+	}
+	
+	@Override
+	public int hashCode() {
+		return Objects.hash(CPF, Celular, EnderecoPac, IdPac, NomePac, NumPac, email, sexo);
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Paciente other = (Paciente) obj;
+		return Objects.equals(CPF, other.CPF) && Objects.equals(Celular, other.Celular)
+				&& Objects.equals(EnderecoPac, other.EnderecoPac) && IdPac == other.IdPac
+				&& Objects.equals(NomePac, other.NomePac) && Objects.equals(NumPac, other.NumPac)
+				&& Objects.equals(email, other.email) && Objects.equals(sexo, other.sexo);
+	}
+	
+	
+}

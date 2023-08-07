@@ -1,0 +1,14 @@
+package com.fateczl.clinicajava.model.entity;
+
+
+public class Paciente 
+{
+	private int IdPac;
+	private String NomePac;
+	private String CPF;
+	private String EnderecoPac;
+	private String NumPac;
+	private String Celular;
+	private String sexo;
+	private String email;
+}

@@ -1,0 +1,11 @@
+
+‹
+java:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(¿ë §8¼õÇéœ1H6RMINORZ
+CODE_SMELL
+‡	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡ˆÆüÿÿÿÿ8Ö±åéœ1HBRMINORZ
+CODE_SMELL
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™¼—âH3RMINORZ
+CODE_SMELL
+Ÿ
+java:S1488!"hImmediately return this expression instead of assigning it to the temporary variable "listaPacienteDto".(°°É²ÿÿÿÿÿ8¼õÇéœ1H8RMINORZ
+CODE_SMELL

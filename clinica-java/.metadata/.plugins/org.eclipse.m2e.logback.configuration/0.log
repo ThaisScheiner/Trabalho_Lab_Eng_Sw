@@ -1,0 +1,127 @@
+2023-08-06 19:17:16,829 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-08-06 19:18:27,771 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.fateczl:clinica-java:0.0.1-SNAPSHOT @ C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\pom.xml.
+2023-08-06 19:18:34,600 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /clinica-java/src/main/java
+2023-08-06 19:18:34,602 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /clinica-java/src/main/resources
+2023-08-06 19:18:34,613 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /clinica-java/src/main/resources
+2023-08-06 19:18:34,626 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /clinica-java/src/test/java
+2023-08-06 19:18:47,726 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 27 sec
+2023-08-06 19:18:50,337 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 19:18:50,433 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 19:18:50,457 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 19:23:54,702 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 19:23:54,714 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 19:23:54,721 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 19:30:39,530 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 19:30:39,613 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 19:30:39,642 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 19:33:22,112 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 19:33:22,121 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 19:33:22,128 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 19:34:10,862 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 19:34:10,874 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 19:34:10,882 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 19:34:27,616 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 19:34:27,638 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 19:34:27,645 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 19:35:07,833 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 19:35:07,843 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 19:35:07,849 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 19:35:32,033 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 19:35:32,044 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 19:35:32,053 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 19:36:04,521 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 19:36:04,534 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 19:36:04,540 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 19:37:46,067 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 19:37:46,141 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 19:37:46,173 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 19:38:47,685 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 19:38:47,699 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 19:38:47,705 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 19:38:59,281 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 19:38:59,290 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 19:38:59,297 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 19:40:03,773 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 19:40:03,783 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 19:40:03,788 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 20:02:45,495 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 20:02:45,525 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 20:02:45,532 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 20:08:22,702 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 20:08:22,715 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 20:08:22,721 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 20:09:21,860 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 20:09:21,913 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 20:09:21,920 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 20:10:24,371 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 20:10:24,408 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 20:10:24,414 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 20:17:06,832 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 20:17:06,866 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 20:17:06,872 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 20:19:54,433 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 20:19:54,496 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 20:19:54,504 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 20:32:30,833 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 20:32:30,862 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 20:32:30,868 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 20:39:12,674 [Worker-33: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.fateczl:clinica-java:0.0.1-SNAPSHOT @ C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\pom.xml.
+2023-08-06 20:39:38,353 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 20:39:38,354 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 20:39:38,363 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 20:39:38,450 [Worker-33: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of clinica-java
+2023-08-06 20:39:38,452 [Worker-33: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for clinica-java
+2023-08-06 20:39:41,903 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 20:39:41,962 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 20:39:41,969 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 20:40:33,644 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 20:40:33,682 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 20:40:33,690 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 20:47:20,028 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 20:47:20,115 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 20:47:20,122 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 21:00:52,593 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 21:00:52,623 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 21:00:52,629 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 21:33:08,422 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 21:33:08,590 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 21:33:08,597 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 21:33:15,915 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 21:33:16,024 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 21:33:16,030 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 21:33:19,864 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 21:33:20,054 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 21:33:20,065 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 21:36:15,842 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 21:36:15,857 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 21:36:15,865 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 21:37:06,361 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 21:37:06,387 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 21:37:06,393 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 21:37:56,167 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 21:37:56,178 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 21:37:56,183 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 21:41:26,199 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 21:41:26,244 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 21:41:26,254 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 21:42:08,569 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 21:42:08,582 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 21:42:08,610 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 21:44:59,222 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 21:44:59,238 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 21:44:59,245 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 21:49:32,636 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 21:49:32,713 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 21:49:32,721 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 21:50:42,187 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 21:50:42,202 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 21:50:42,211 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-06 21:51:40,186 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-06 21:51:40,460 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-06 21:51:40,466 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-07 01:52:54,358 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-07 01:52:54,398 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-07 01:52:54,405 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-07 01:54:43,276 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-07 01:54:43,290 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-07 01:54:43,300 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources

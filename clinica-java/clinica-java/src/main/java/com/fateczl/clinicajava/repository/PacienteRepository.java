@@ -1,0 +1,22 @@
+package com.fateczl.clinicajava.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.query.Procedure;
+import org.springframework.data.repository.query.Param;
+
+import com.fateczl.clinicajava.model.entity.Paciente;
+
+public interface PacienteRepository extends JpaRepository<Paciente, Integer>
+{
+	@Procedure(name = "Paciente.spCrudPaciente")
+	String spCrudPaciente(@Param("cod") int cod, 
+							@Param("IdPac") int IdPac,
+							@Param("NomePac") String NomePac,
+							@Param("CPF") String CPF,
+							@Param("EnderecoPac") String EnderecoPac,
+							@Param("NumPac") String NumPac,
+							@Param("Celular") String Celular,
+							@Param("sexo") String sexo,
+							@Param("email") String email
+							);
+}

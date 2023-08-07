@@ -1,0 +1,22 @@
+package com.fateczl.clinicajava.model.entity;
+
+import java.util.Objects;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "paciente")
+public class Paciente 
+{
+	private int idPac;
+	private String nomePac;
+	private String CPF;
+	private String enderecoPac;
+	private String numPac;
+	private String celular;
+	private String sexo;
+	private String email;
+	
+	
+}

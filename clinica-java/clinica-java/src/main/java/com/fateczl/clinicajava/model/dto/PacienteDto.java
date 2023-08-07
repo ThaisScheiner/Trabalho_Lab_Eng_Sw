@@ -1,0 +1,92 @@
+package com.fateczl.clinicajava.model.dto;
+
+import java.util.Objects;
+
+public class PacienteDto
+{
+	private int idPac;
+	private String nomePac;
+	private String CPF;
+	private String enderecoPac;
+	private String numPac;
+	private String celular;
+	private String sexo;
+	private String email;
+	
+	public int getIdPac() {
+		return idPac;
+	}
+	public void setIdPac(int idPac) {
+		this.idPac = idPac;
+	}
+	public String getNomePac() {
+		return nomePac;
+	}
+	public void setNomePac(String nomePac) {
+		this.nomePac = nomePac;
+	}
+	public String getCPF() {
+		return CPF;
+	}
+	public void setCPF(String cPF) {
+		CPF = cPF;
+	}
+	public String getEnderecoPac() {
+		return enderecoPac;
+	}
+	public void setEnderecoPac(String enderecoPac) {
+		this.enderecoPac = enderecoPac;
+	}
+	public String getNumPac() {
+		return numPac;
+	}
+	public void setNumPac(String numPac) {
+		this.numPac = numPac;
+	}
+	public String getCelular() {
+		return celular;
+	}
+	public void setCelular(String celular) {
+		this.celular = celular;
+	}
+	public String getSexo() {
+		return sexo;
+	}
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
+	@Override
+	public String toString() {
+		return "PacienteDto [idPac=" + idPac + ", nomePac=" + nomePac + ", CPF=" + CPF + ", enderecoPac=" + enderecoPac
+				+ ", numPac=" + numPac + ", celular=" + celular + ", sexo=" + sexo + ", email=" + email + "]";
+	}
+	
+	@Override
+	public int hashCode() {
+		return Objects.hash(CPF, celular, email, enderecoPac, idPac, nomePac, numPac, sexo);
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		PacienteDto other = (PacienteDto) obj;
+		return Objects.equals(CPF, other.CPF) && Objects.equals(celular, other.celular)
+				&& Objects.equals(email, other.email) && Objects.equals(enderecoPac, other.enderecoPac)
+				&& idPac == other.idPac && Objects.equals(nomePac, other.nomePac)
+				&& Objects.equals(numPac, other.numPac) && Objects.equals(sexo, other.sexo);
+	}
+	
+	
+}

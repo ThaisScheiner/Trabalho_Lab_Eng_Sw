@@ -1,0 +1,5 @@
+package com.fateczl.clinicajava.model.entity;
+
+public class Paciente {
+
+}

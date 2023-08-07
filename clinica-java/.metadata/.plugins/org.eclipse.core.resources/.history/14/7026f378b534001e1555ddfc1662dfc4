@@ -1,0 +1,10 @@
+package com.fateczl.clinicajava.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.fateczl.clinicajava.model.entity.Paciente;
+
+public interface PacienteRepository extends JpaRepository<Paciente, Integer>
+{
+
+}

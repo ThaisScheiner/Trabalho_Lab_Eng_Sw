@@ -1,0 +1,5 @@
+package com.fateczl.clinicajava.Controller;
+
+public interface ICRUDController {
+
+}

@@ -1,0 +1,47 @@
+package com.fateczl.clinicajava.Controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.fateczl.clinicajava.model.dto.PacienteDto;
+import com.fateczl.clinicajava.model.entity.Paciente;
+import com.fateczl.clinicajava.repository.PacienteRepository;
+
+@RestController
+@RequestMapping("/api")
+public class PacienteController  
+{
+	@Autowired
+	private PacienteRepository pRep;
+	
+	public List<PacienteDto> getAllPaciente()
+	{
+		List<Paciente> listaPaciente = pRep.findAll();
+		List<PacienteDto> listaPacienteDto = converteListaPaciente(listaPaciente);
+		return listaPacienteDto;
+	}
+
+	private List<PacienteDto> converteListaPaciente(List<Paciente> listaPaciente)
+	{
+		List<PacienteDto> listaPacienteDto = new ArrayList<PacienteDto>();
+		for(Paciente p : listaPaciente)
+		{
+			PacienteDto pDto = new PacienteDto();
+			pDto.setIdPac(p.getIdPac());
+			pDto.setNomePac(p.getNomePac());
+			pDto.setCPF(p.getCPF());
+			pDto.setEnderecoPac(p.getEnderecoPac());
+			pDto.setNumPac(p.getNumPac());
+			pDto.setCelular(p.getCelular());
+			pDto.setSexo(p.getSexo());
+			pDto.setEmail(p.getEmail());
+			
+			listaPacienteDto.add(pDto);
+		}
+		return listaPacienteDto;
+	}
+}
