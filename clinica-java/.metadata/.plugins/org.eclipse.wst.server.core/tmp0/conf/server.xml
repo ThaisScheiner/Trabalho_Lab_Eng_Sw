@@ -134,7 +134,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\clinica-java" path="/clinica-java" reloadable="true" source="org.eclipse.jst.jee.server:clinica-java"/></Host>
+      <Context docBase="C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\clinica-java\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\clinica-java\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\clinica-java" path="/clinica-java" reloadable="true" source="org.eclipse.jst.jee.server:clinica-java"/></Host>
     </Engine>
   </Service>
 </Server>

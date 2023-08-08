@@ -125,3 +125,13 @@
 2023-08-07 01:54:43,276 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2023-08-07 01:54:43,290 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2023-08-07 01:54:43,300 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\Nova pasta\clinica-java\src\test\resources
+2023-08-08 00:00:38,140 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-08-08 00:00:50,409 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.fateczl:clinica-java:0.0.1-SNAPSHOT @ C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\clinica-java\clinica-java\pom.xml.
+2023-08-08 00:00:56,358 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-08 00:00:56,538 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-08 00:00:56,548 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\clinica-java\clinica-java\src\test\resources
+2023-08-08 00:00:56,562 [Worker-9: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of clinica-java
+2023-08-08 00:00:56,563 [Worker-9: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for clinica-java
+2023-08-08 00:01:01,192 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-08 00:01:01,485 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-08 00:01:01,493 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Thais\OneDrive - Fatec Centro Paula Souza\FATEC\00- Lab Engenharia de Software\clinica-java\clinica-java\src\test\resources

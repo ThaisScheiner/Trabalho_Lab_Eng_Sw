@@ -3,8 +3,6 @@ p
 @src/main/java/com/fateczl/clinicajava/model/dto/PacienteDto.java,9\b\9b895d80ade586eb5bb7019db80bf82388f3140d
 y
 Isrc/main/java/com/fateczl/clinicajava/Controller/IPacienteController.java,a\7\a7bda3c4af43f97438e2fdc658c7bf5b37ae0af4
-u
-Esrc/main/java/com/fateczl/clinicajava/Controller/ICRUDController.java,4\0\402e3dc8e088f980ff85eaf22cf2bab767f0909b
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 x
